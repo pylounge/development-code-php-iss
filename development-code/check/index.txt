@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список товаров</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  </head>
+  <body>
+    <header>
+      <h1>Список товаров</h1>
+    </header>
+    <main>
+			 <form action="display.php" method="POST">
+			<select name="state">
+			  <option value="rich">Богат</option>
+			  <option value="poor">Беден</option>
+			</select>
+			<select name="proc">
+			  <option value="AMD">AMD</option>
+			  <option value="Intel">Intel</option>
+			</select>
+			<select name="type">
+			  <option value="Процессор">Процессор</option>
+			  <option value="Видеокарта">Видеокарта</option>
+			  <option value="Все">Все товары</option>
+			</select>
+			<input type="submit" value="Отправить" />
+		</form>
+    </main>
+  </body>
+</html>
+
+<!-- http://localhost/development-code/display/index.php -->
