@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Список товаров</title>
+<body>
+    <main>
+        <form action="index.php" method="POST">
+            <input name="min_price" type="number"/>
+            <input name="max_price" type="number"/>
+            <select name="type">
+                <option value="Все">Все товары</option>
+                <option value="Процессор">Процессоры</option>
+                <option value="Видеокарта">Видеокарты</option>
+            </select>
+            <input type="submit" value="Применить"/>
+        </form>
+    </main>
+</body>
+</html>
