@@ -7,3 +7,4 @@
 * display - вывод товаров из БД
 * ajax - использование fetch запросов к php
 * check - циклы и условия при работе с бд
+* crud - реализация AJAX CRUD API на PHP и JavaScript (fetch) 
