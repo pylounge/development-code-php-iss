@@ -1,0 +1,23 @@
+#result{
+	display:flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+}
+	  
+.item{
+	min-width: 725px;
+	display:flex;
+	margin: 5px;
+	border: 1px solid grey;
+	padding: 5px;
+	justify-content:  space-between;
+}
+	  
+.item p, h1{
+	margin: 5px;
+}
+	  
+form{
+	padding: 10px;
+}
