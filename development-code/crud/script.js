@@ -69,5 +69,6 @@ async function delUser(e){
 		  
 async function editUser(e){
 	// модальное окно
+	// либо подставлять в форму значения юзера и при нажатии на кнопку сохранить, искать юзера по id и изменять его
 	console.log(e.target);
 }
