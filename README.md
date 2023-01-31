@@ -9,3 +9,4 @@
 * check - циклы и условия при работе с бд
 * crud - реализация AJAX CRUD API на PHP и JavaScript (fetch) 
 * app - сайт на Php, Js, HTML/CSS
+* proriv-php-main - полезные скрипты для работы с VK аутентификацией, кешированием, бд и т.д.
